@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+/*输入鸡和兔的总的头数和脚数，分别输出鸡和兔的数量*/
+
 void main(void)
 {
 	int chicken=0,rabbit=0;
