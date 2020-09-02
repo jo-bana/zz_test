@@ -4,7 +4,7 @@
 
 #define MAX_STR 256
 
-//字符串转整型
+//瀛楃涓茶浆鏁村瀷
 int zzatoi(char str[])
 {
 	int i,len,num;
@@ -19,7 +19,7 @@ int zzatoi(char str[])
 	}
 	return num;	
 }
-//整型转字符串
+//鏁村瀷杞瓧绗﹀瀷
 char* zzitoa(int value)
 {
 	char p[MAX_STR]={0};
