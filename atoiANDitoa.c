@@ -4,6 +4,8 @@
 
 #define MAX_STR 256
 
+/*此处运行发现itoa函数出现段错误，atoi函数呈现字符串时乱码*/
+
 //字符串转整型
 int zzatoi(char str[])
 {
