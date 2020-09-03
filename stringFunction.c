@@ -2,7 +2,7 @@
 #include <assert.h>
 //#include <string.h>
 #define MAX_SIZE 256
-//×óÕğµÄstrcp
+//å·¦éœ‡çš„strcp
 char* zzstrcpy(char*des,char*source)
 {
 	if(!des||!source)
@@ -13,7 +13,8 @@ char* zzstrcpy(char*des,char*source)
 	while((*d++=*source++)!='\0');
 	return des;
 }
-//µßµ¹×Ö·û´®º¯Êı
+//é¢ å€’å­—ç¬¦ä¸²å‡½æ•°
+/*æ­¤å‡½æ•°è¿è¡Œç»“æœå’Œé¢„æœŸä¸ç¬¦ï¼Œå‡ºç°äº†æ²¡æœ‰å®Œå…¨è¦†ç›–åŸæ•°ç»„å¯¼è‡´çš„æ•°æ®æ··ä¹±*/
 #if 0
 void reverseStr(char *str)
 {
@@ -27,11 +28,11 @@ void reverseStr(char *str)
 	len=strlen(str);
 	for(j=len;j>0;j--)
 	{	
-		d[j]=str[len-j];//µÚÒ»¸öÈûµ½ĞÂÊı×é×îºóÒ»Î»
+		d[j]=str[len-j];//ç¬¬ä¸€ä¸ªå¡åˆ°æ–°æ•°ç»„æœ€åä¸€ä½
 	}
 	for(j=len;j>0;j--)
 	{
-		str[j]=d[j];//´«µİµ½Ô­À´µÄ×Ö·û´®Êı×é
+		str[j]=d[j];//ä¼ é€’åˆ°åŸæ¥çš„å­—ç¬¦ä¸²æ•°ç»„
 	}
 		
 	return;
